@@ -39,11 +39,12 @@ function writePosition(x,y){
     'x': position.x + x ,
     'y': position.y + y
   })
+  //console.log(x);
 }
 
 function readPosition(data){
   position = data.val();
-  console.log(position.x);
+  //console.log(position.x);
   hypnoticBall.x = position.x;
   hypnoticBall.y = position.y;
 }
